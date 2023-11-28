@@ -1,0 +1,5 @@
+p, q |- (p -> q)
+
+[premise] p
+[premise] q
+[impl-in 3-4] (p -> q)

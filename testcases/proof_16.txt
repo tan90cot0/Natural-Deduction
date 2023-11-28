@@ -1,0 +1,8 @@
+((! q) -> (! p)) |- p
+
+[premise] ((! q) -> (! p))
+[assumption] p
+[dneg-in 4] (! (! p))
+[mt 3, 5] (! (! q))
+[impl-in 4-6] (p -> (! (! q)))
+[copy 4] p 

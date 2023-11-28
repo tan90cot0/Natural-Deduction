@@ -1,0 +1,8 @@
+(p \/ q) |- (q \/ p)
+
+[premise] (p \/ q)
+[assumption] p
+[or-in2 4] (q \/ p)
+[assumption] q
+[or-in1 6] (q \/ p)
+[or-el 3, 4-5, 6-7] (q \/ p)

@@ -1,0 +1,3 @@
+# COL703-Logic-For-Comp-Sci
+The task of this project is to write a Python program that can take a natural deduction proof (as a text
+file), and output correct or incorrect depending on whether the proof is correct or not. This was done as a course assignment for COL703 - Logic - Odd Semester - 2023-2024. There is a file named checkProof.py such that running checkProof.py <ProofFilePath> prints 'correct' or 'incorrect' to stdout. There is a function named checkProof in the file checkProof.py, which takes the input file path, does spme magic and then returns the string “correct” or “incorrect”. Some sample testcases are present in the folder named testcases.

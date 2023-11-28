@@ -1,0 +1,5 @@
+(p -> q), p |- q
+
+[premise] (p -> q)
+[assumption] p
+[mp 4, 3] q

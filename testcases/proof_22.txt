@@ -1,0 +1,14 @@
+((!p) \/ q) |- (p -> q)
+
+[premise] ((!p) \/ q)
+[assumption] (!p)
+[assumption] p 
+[neg-el 5,4] \bot 
+[bot-el 6] q
+[impl-in 5-7] (p -> q)
+[dneg-in 5] (!(!p))
+[assumption] q
+[assumption] p
+[copy 9] q
+[impl-in 10-11] (p -> q)
+[or-el 3, 4-8, 9-12] (p -> q)

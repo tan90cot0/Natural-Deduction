@@ -1,0 +1,9 @@
+(p -> q), (p -> (! q)) |- (! p)
+
+[premise] (p -> q)
+[premise] (p -> (! q))
+[assumption] p
+[mp 5, 3] q
+[mp 5, 4] (! q)
+[neg-el 6, 7] bot 
+[bot-el 8] (! p)

@@ -1,0 +1,4 @@
+(! (! p)) |- p
+
+[premise] (! (! p))
+[dneg-el 3] p

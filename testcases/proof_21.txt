@@ -1,0 +1,4 @@
+\bot |- p
+
+[premise] \bot
+[bot-el 3] p

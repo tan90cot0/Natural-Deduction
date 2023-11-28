@@ -1,0 +1,9 @@
+(a->(b->c)) |- ((a /\ b) -> c)
+
+[premise] (a->(b->c))
+[assumption] (a /\ b)
+[and-el1 4] a
+[mp 5, 3] (b->c)
+[and-el2 4] b
+[mp 7, 6] c
+[impl-in 4-8] ((a /\ b) -> c)

@@ -1,0 +1,12 @@
+((!p) /\ (!q)) |- (!(p \/ q))
+
+[premise] ((!p) /\ (!q))
+[and-el1 3] (!p)
+[and-el2 3] (!q)
+[assumption] (p \/ q)
+[assumption] p
+[neg-el 7,4] \bot
+[assumption] q
+[neg-el 9,5] \bot
+[or-el 6,7-8,9-10] \bot
+[neg-in 6-11] (!(p \/ q))

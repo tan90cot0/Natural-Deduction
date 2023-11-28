@@ -1,0 +1,5 @@
+(p -> q), (! q) |- (! p)
+
+[premise] (p -> q)
+[premise] (! q)
+[mt 3, 4] (! p)

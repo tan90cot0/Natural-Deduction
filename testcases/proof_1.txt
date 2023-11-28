@@ -1,0 +1,4 @@
+(p /\ q) |- q
+
+[premise] (p /\ q)
+[and-el2 3] q
